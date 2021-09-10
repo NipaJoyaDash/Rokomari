@@ -1,0 +1,1168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+   body{ 
+		margin: 0px;
+		padding: 0px;
+		background-color: #f1f2f4;
+		font-family: 'SiyamRupali','Kalpurush', "Lato" sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		color: #333333;
+	}
+/*------------------refer---------------------*/
+	.refer {
+		background-color: #ffffff;
+		box-shadow: -0.5px 1px 7px #9e9898;
+		width: 350px;
+		height: 50px;
+		border-radius: 10px ;
+		font-family: SiyamRupali;
+		font-size: 15px;
+		position: fixed;
+		top: 350px;
+		left: -150px;
+		transform: rotate(-90deg);
+	}
+
+	.refer p{
+		padding-left: 20px;
+		
+	}
+	.cart{
+		position: fixed;
+		top: 374px;
+		right: 148px;
+		background-color: #ffffff;
+		border: 1px solid #e7e7e7;
+		box-shadow: 0 0 3px 2px rgb(231 231 231 / 75%);
+		padding: 5px;
+		height: 55px;
+		border-radius: 5px;
+		width: 45px;
+		padding-top: 20px;
+		z-index: 1;
+	}
+/*------------header----------------*/
+.header{
+	width: 1360px;
+	margin: 10px 0 10px 0;
+}
+
+.header .logo{
+	width: 350px;
+	float: left;
+}
+
+.logo img{
+	width: 100px;
+	height: auto;
+	left: 150px;
+	position: relative;
+}
+
+.header-2{
+	width: 660px;
+	float: left;
+}
+
+.header-2 input[type=search]{
+	width: 80%;
+	height: 40px;
+	border: 1px solid #CED4DA;
+	border-bottom: 2px solid orange;
+	border-radius: 5px;
+	padding-left: 10px;
+	font-size: 17px;
+	color:#CED4DA ;
+}
+
+.header-2 input[type=submit]{
+	width: 90px;
+	height: 38px;
+	background: #0397D3;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 17px;
+}
+
+.cart-1{
+	width: 350px;
+	float: left;
+	padding-top: 05px;
+	text-align: center;
+}
+
+.cart-1 .cart-2{
+	float: left;
+	margin-right: 20px;
+}
+
+.cart-1 .cart-2 .fas{
+	font-size: 27px;
+	color: #616161;
+}
+
+.cart-1 .button{
+	float: left;
+}
+
+.cart-1 .button input{
+	padding: 10px 20px;
+	border: 1px solid #CED4DA;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.cart-1 .button input:hover{
+	background: #33C24D;
+	border: 0;
+	color: #fff;
+}
+
+/*--------------sub-header-----------------*/
+.sub-header{
+	width: 1360px;
+	height: auto;
+	padding: 60px 0 30px 0;
+	border-bottom: 1px solid #89C4F4;
+	background-color: white;
+}
+
+.menu-item{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.boi{
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #89C4F4;
+	border-left: 1px solid #89C4F4;
+    border-right: 1px solid #89C4F4;
+    height: 32px;
+    padding-top: 2px;
+    background-color: #ffffff;
+
+}
+
+.sub-header ul{
+	list-style-type: none;
+}
+
+.sub-header ul li{
+	float: left;
+}
+
+.sub-header ul li a{
+	text-decoration: none;
+	color: #000;
+	padding: 10px 15px;
+	font-size: 17px;
+}
+
+.sub-header ul li a:hover{
+	color: #0397D3;
+}
+
+/*-----Sub-header-2----*/
+.sub-header-2{
+	background-color: white;
+	margin-right: 20px;
+	width: 1360px;
+}
+
+.list{
+	border-bottom: none;
+	padding: 20px 0 40px 0;
+}
+
+.list-item{
+	width: 1290px;
+	margin: 0 auto;
+    text-decoration: none;
+	font-size: 15px;
+	padding-left: 90px;
+}
+
+.list a{
+	padding: 10px 20px;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+}
+
+.link{
+	color: #F7941D;
+}
+
+.link:hover{
+	color: bisque;
+}
+
+.link1{
+	color: #51F67D;
+}
+.link1:hover{
+	color: black;
+}
+
+.li-1{
+  color: black;
+}
+
+.li-1:hover{
+    color: #0397D3;
+}
+
+/*---------------banner------------------*/
+.banner{
+	width: 1360px;
+	background: #F1F2F4;
+}
+
+.main-nav{
+	width: 1160px;
+	margin: 0 auto;
+}
+
+.banner-2{
+	width: 1160px;
+}
+
+.banner-2 img{
+	width: 1160px;
+	height: 250px;
+	padding: 15px 0;
+}
+/*---------------sub-banner------------------*/
+.banner-3{
+	width: 1160px;
+	overflow: hidden;
+}
+
+.banner-3 img{
+	width: 366px;
+	float: left;
+	margin-right: 20px;
+	padding: 0 0 15px 0;
+}
+
+/*-----------recently sold products-----------*/
+.product-1{
+	width: 1180px;
+	background: #FDFCF5;
+	overflow: hidden;
+	border-radius: 7px;
+	box-shadow: -0.5px 1px 7px #9e9898;
+}
+
+.product-1 h1{
+	color: #333C45;
+	padding: 15px 10px;
+	font-weight: 500;
+}
+
+.product-11{
+	width: 193px;
+	height: 352px;
+	float: left;
+	padding: 20px;
+	opacity: 1;
+}
+
+.product-11:hover{
+	border: 2px solid #DFDEDB;
+	opacity: 0.3;
+	box-shadow: 1;
+}
+
+.product-11 img{
+	width: 150px;
+	height: 200px;
+}
+
+.first-product {
+	text-align: center;
+}
+
+.button-2{
+	color: #fff;
+	background: orange;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 15px;
+	position: relative;
+	top: -170px;
+}
+
+.first-product h4 del{
+     color: gray;
+}
+
+.first-product h4 {
+    color: #282828;
+}
+
+.first-product-cart .fas{
+	font-size: 14px;
+	padding: 0 5px;
+}
+
+.first-product-cart{
+	display: none;
+}
+
+.product-11:hover .first-product-cart{
+	display: block;
+	position: absolute;
+}
+
+.bottom-button{
+	color: #fff;
+	background: #37AAF7;
+	padding: 10px 35px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -35px;
+}
+
+.item-box-1{
+    display: flex;
+    position: relative;
+}
+
+.arrow-1{
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    border: 1px solid rgb(194, 177, 177);
+    box-shadow:  0px 4px 6px -3px #9c9c9c; 
+	left: 5px;
+}
+/*.arrow-2{
+    position: absolute;
+    top: 70px;
+    left: 1000px;
+    background-color: white;
+    border: 1px solid rgb(194, 177, 177);
+    box-shadow:  0px 4px 6px -3px #9c9c9c; 
+	height: 70px;
+	width: 10px;
+}*/
+
+/*--------selected-book-part-------*/
+.selected-book{
+	overflow: hidden;
+	background: #fff;
+	margin-top: 20px;
+	padding: 30px 0;
+	border-radius: 7px;
+	box-shadow: -0.5px 1px 7px #9e9898;
+	width: 1180px;
+}
+
+.selected-book-1{
+	width: 169px;
+	height: 130px;
+	float: left;
+	margin-right: 20px;
+	background: url(images/custom-category1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 4px;
+    text-align: center;
+}
+
+.selected-book-1 p{
+	color: #fff;
+	padding: 40px 10px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.main-class{
+	padding: 35px 0 0 20px;
+}
+
+.selected-book-3{
+	display: inline-block;
+	padding: 0 15px;
+}
+
+.selected-book-3 p{
+	display: inline;
+    font-size: 25px;
+    color: #303030;
+}
+
+.selected-book-3 span{
+    color: gray;
+}
+
+/*------------------input-button-------------------*/
+.input-button{
+    padding: 20px 0;
+}
+
+.input-button a {
+    width: 208px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 0;
+    text-align: center;
+    color: #000;
+    background: #d5efeb;
+    border: .5px solid #0397D3;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    border-radius: 7px;
+}
+
+.input-button a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0397D3;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.input-button-2 {
+    padding: 0 0 20px 0;
+}
+
+.input-button a:hover span{
+	width: 100%;
+}
+.input-button a:hover{
+	color: #fff;
+}
+
+/*---------------science-fiction-books-----------------*/
+.sceince-fiction-book{
+	width: 1180px;
+	background: #FDFCF5;
+	overflow: hidden;
+	border-radius: 7px;
+    padding-right: 40px;
+    padding-left: 100px;
+	box-shadow: -0.5px 1px 7px #9e9898;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.sceince-fiction-book h1{
+	color: #333C45;
+	padding: 15px 10px;
+	font-weight: 500;
+}
+
+.sceince-fiction-book-2:hover{
+	border: 2px solid #DFDEDB;
+	opacity: 0.3;
+	box-shadow: 1;
+}
+
+.sceince-fiction-book-2 img{
+	width: 150px;
+	height: 200px;
+}
+
+.first-product-2 {
+	text-align: center;
+}
+
+.button-3{
+	color: #fff;
+	background: orange;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 15px;
+	position: relative;
+	top: -170px;
+	margin-right: 23px;
+	margin-left: 0px;
+}
+
+.first-product-2 h4 del{
+color: gray;
+}
+
+.first-product-2 span{
+	color: #606060;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.first-product-2 p{
+	padding-top: 5px;
+}
+
+.first-product-2 h4 {
+    color: #282828;
+}
+
+.first-product-cart-2 .fas-2{
+	font-size: 14px;
+	padding: 0 5px;
+}
+
+.first-product-cart-2{
+	display: none;
+}
+
+.sceince-fiction-book-2:hover .first-product-cart-2{
+	display: block;
+	position: absolute;
+}
+
+.bottom-button-2{
+	color: #fff;
+	background: #37AAF7;
+	padding: 20px 34px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -25px;
+	margin-right: 15px;
+	margin-left: 19px;
+}
+
+.item {
+    width: 193px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    font-family: SiyamRupali;
+    font-weight: 500;
+    position: relative;
+    height: 352px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.item-image {
+    margin-top: 20px;
+}
+
+.read-item {
+    width: 90px;
+    position: absolute;
+    top: 145px;
+    left: 90px;
+    transform: rotate(311deg);
+    background-color: #d68016;
+    font-size: 12px;
+    color: white;
+}
+
+.read-item p {
+    padding: 0px;
+    margin: 0px;
+}
+/*-------------বঙ্গবন্ধু, বাংলাদেশ ও মুক্তিযুদ্ধ বিষয়ক বই-----------------*/
+.fiction-book{
+	width: 1180px;
+	background: #FDFCF5;
+	overflow: hidden;
+	border-radius: 7px;
+    padding-right: 40px;
+    padding-left: 20px;
+	box-shadow: -0.5px 1px 7px #9e9898;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.fiction-book h1{
+	color: #333C45;
+	padding: 15px 10px;
+	font-weight: 500;
+}
+
+.fiction-book-2:hover{
+	border: 2px solid #DFDEDB;
+	opacity: 0.3;
+	box-shadow: 1;
+}
+
+.fiction-book-2 img{
+	width: 150px;
+	height: 200px;
+}
+
+.item-2 {
+    width: 200px;
+    box-sizing: border-box;
+    margin: 5px;
+    text-align: center;
+    font-family: SiyamRupali;
+    font-weight: 500;
+    position: relative;
+    height: 352px;
+    float: left;
+	margin-left: 10px;
+    
+}
+
+.item-image-2 {
+    margin-top: 20px;
+}
+
+.read-item-2 {
+    width: 90px;
+    position: absolute;
+    top: 145px;
+    left: 90px;
+    transform: rotate(311deg);
+    background-color: #d68016;
+    font-size: 12px;
+    color: white;
+}
+
+.read-item-2 p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.first-product-4 {
+	text-align: center;
+}
+.button-4{
+	color: #fff;
+	background: orange;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 15px;
+	position: relative;
+	top: -170px;
+	margin-right: 23px;
+	margin-left: 0px;
+}
+
+.first-product-4 h4 del{
+     color: gray;
+}
+
+.first-product-4 span{
+	color: #606060;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.first-product-4 p{
+	padding-top: 5px;
+}
+
+.first-product-4 h4 {
+    color: #282828;
+}
+
+.first-product-cart-4 .fas-4{
+	font-size: 14px;
+	padding: 0 5px;
+}
+
+.first-product-cart-4{
+	display: none;
+}
+
+.fiction-book-4:hover .first-product-cart-4{
+	display: block;
+	position: absolute;
+}
+
+.bottom-button-4{
+	color: #fff;
+	background: #37AAF7;
+	padding: 20px 34px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -25px;
+	margin-right: 15px;
+	margin-left: 19px;
+}
+/*--------উপন্যাস-ইসলামিক বই-কমিকস ও ছবির গল্প-------------------------------------*/
+.input-button-2 {
+    padding: 20px 0;
+}
+
+.input-button-2 a {
+    width: 208px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 15px 0;
+    text-align: center;
+    color: #000;
+    background: #d5efeb;
+    border: .5px solid #0397D3;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    border-radius: 7px;
+}
+
+.input-button-2 a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #0397D3;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.input-button-2 a:hover span{
+	width: 100%;
+}
+.input-button-2 a:hover{
+	color: #fff;
+}
+
+/*-----------------মাননীয় প্রধানমন্ত্রী শেখ হাসিনার বইসমূহ-------------------*/
+.product-21{
+	width: 1180px;
+	background: #FDFCF5;
+	overflow: hidden;
+	border-radius: 7px;
+	box-shadow: -0.5px 1px 7px #9e9898;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.product-21 h1{
+	color: #333C45;
+	padding: 15px 10px;
+	font-weight: 500;
+}
+
+.product-211{
+	width: 150px;
+	height: 352px;
+	float: left;
+	padding: 20px;
+	opacity: 1;
+	margin-left: 60px;
+}
+
+.product-211:hover{
+	border: 2px solid #DFDEDB;
+	opacity: 0.3;
+	box-shadow: 1;
+}
+
+.product-211 img{
+	width: 150px;
+	height: 200px;
+
+}
+
+.first-product {
+	text-align: center;
+}
+
+.button-2{
+	color: #fff;
+	background: orange;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 15px;
+	position: relative;
+	top: -170px;
+}
+
+.first-product h4 del{
+     color: gray;
+}
+
+.first-product span{
+   color: #606060;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+
+.first-product p{
+   padding-top: 5px;
+}
+.first-product h4 {
+    color: #282828;
+}
+
+.first-product-cart .fas{
+	font-size: 14px;
+	padding: 0 5px;
+}
+
+.first-product-cart{
+	display: none;
+}
+
+.product-211:hover .first-product-cart{
+	display: block;
+	position: absolute;
+}
+
+.bottom-button{
+	color: #fff;
+	background: #37AAF7;
+	padding: 10px 35px;
+	text-decoration: none;
+	text-align: center;
+	position: relative;
+	top: -35px;
+}
+
+.item-box-1{
+    display: flex;
+    position: relative;
+}
+
+.arrow-1{
+    position: absolute;
+    top: 70px;
+    background-color: white;
+    border: 1px solid rgb(194, 177, 177);
+    box-shadow:  0px 4px 6px -3px #9c9c9c; 
+	left: 5px;
+}
+
+/*--------middle-images--------*/
+.middle-images{
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+.middle-images img{
+	width: 570px;
+	height: auto;
+}
+.bn1{
+	width: 570px;
+	float: left;
+	margin-right: 20px;
+}
+.bn2{
+	width: 570px;
+	float: left;
+}
+/*--------author----------*/
+.author{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: -0.5px 1px 7px #9e9898;
+	border-radius: 8px;
+}
+.author h1{
+	color: #333333;
+	font-size: 23px;
+	font-weight: 500;
+	padding: 15px 0 0 15px;
+}
+.author-1{
+	width: 232px;
+	float: left;
+	text-align: center;
+}
+.author-1 img{
+	width: 145px;
+	height: 145px;
+	border-radius: 100%;
+	border: 2px solid #ddd;
+}
+.author-1 img:hover{
+	border: 2px solid #0397D3;
+}
+.main-authors{
+	padding: 25px 0 25px 0;
+	overflow: hidden;
+}
+
+/*---------details---------*/
+.details{
+	overflow: hidden;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.details-1{
+	width: 320px;
+	float: left;
+	padding: 0 0 0 20px;
+}
+.details-1-last-item{
+	width: 200px;
+}
+.details-1 p{
+	font-size: 14px;
+}
+.details-1 .icon-10{
+	float: left;
+	margin-right: 10px;
+	padding: 10px 0;
+}
+.details-1 .icon-10 .fas{
+	font-size: 20px;
+}
+.details-1 .icon-10 .fab{
+	font-size: 20px;
+}
+.details-10{
+	float: left;
+}
+
+/*------------news-later----------*/
+.news-later{
+	width: 100%;
+	overflow: hidden;
+	background: #fff;
+	box-shadow: -0.5px 1px 7px #9e9898;
+	border-radius: 6px;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.news-later h1{
+	color: #333333;
+	font-size: 23px;
+	font-weight: 400;
+	padding: 20px 0 0 0;
+} 
+
+.news-later h1 span{
+	color: #33C24D;
+}
+
+.form{
+	padding-left: 26%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+} 
+
+.form input[type=email]{
+	float: left;
+	width: 400px;
+	padding: 15px 15px;
+	border-radius: 7px;
+	border: 1px solid #ddd;
+	margin-right: 10px;
+	outline-color: #80BDFF;
+}
+
+.form-button-1{
+	float: left;
+	margin-right: 10px;
+	padding: 10px 0 0 0;
+}
+
+.form-button-1 a{
+	color: #0397D3;
+	padding: 13px 15px;
+	text-decoration: none;
+	border: 1px solid #0397D3;
+	transition: 0.3s all ease;
+}
+
+.form-button-1 a:hover{
+	color: #fff;
+	background: #0397D3;
+}
+
+.form-button-2{
+	float: left;
+	padding: 10px 0 0 0;
+}
+
+.form-button-2 a{
+	color: #E26A6A;
+	padding: 13px 15px;
+	text-decoration: none;
+	border: 1px solid #E26A6A;
+	transition: 0.3s all ease;
+}
+
+.form-button-2 a:hover{
+	color: #fff;
+	background: #E26A6A;
+}
+
+/*---------------------bottom------------------*/
+.bottom{
+	width: 1360px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.menu-bottom{
+	width: 1160px;
+	margin: 0 auto;
+}
+
+/*------.footer----*/
+.footer{
+	padding: 30px 0;
+	overflow: hidden;
+}
+
+.footer-1{
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+}
+
+.footer-2{
+	width: 192px;
+	float: left;
+	margin-right: 20px;
+}
+
+.footer-3{
+	width: 250px;
+	float: left;
+}
+
+.footer-1 .Stay-connected img{
+	width: 30px;
+	height: 30px;
+}
+
+.footer-1 img{
+	width: 110px;
+	height: auto;
+}
+
+.footer-1 .address{
+	padding: 20px 0;
+}
+
+.footer-1 .address span{
+	color: #BCBDBE;
+	font-size: 15px;
+	width: 180px;
+	line-height: 35px;
+}
+
+.footer-1 .address .far{
+	font-size: 21px;
+	padding-right: 10px;
+	color: #BCBDBE;
+}
+
+.footer-1 .address .fas{
+	font-size: 21px;
+	padding-right: 10px;
+	color: #BCBDBE;
+}
+
+.footer-1 .Stay-connected p{
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px 0;
+}
+
+.footer-2 h3{
+	color: #000;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.footer-2 .last-footer{
+	padding: 30px 0 0 0;
+}
+
+.footer-2 .last-footer-1{
+	padding: 90px 0 0 0;
+}
+
+.footer-2 ul li{
+	color: #000;
+	font-size: 13px;
+	font-weight: 400;
+	list-style-type: circle;
+}
+
+.footer-3 h2{
+	color: #000;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+.footer-3 img{
+	padding-left: 0px;
+	padding-right: 5px;
+}
+
+/*------------middle-footer--------*/
+.middle-footer{
+	padding: 20px 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	background-color: white;	
+}
+
+.main-footer-2{
+	width: 760px;
+	margin: 0 auto;
+}
+
+.middle-footer p{
+	float: left;
+	color: #000;
+	padding: 4px 0;
+	font-size: 17px;
+	margin-right: 20px;
+	font-weight: 500;
+}
+
+.middle-footer .footer-end-2{
+	float: left;
+}
+
+.middle-footer .footer-end-2 img{
+	width: 60px;
+	height: 30px;
+	margin-right: 15px;
+}
+
+.footer-end{
+	overflow: hidden;
+	padding: 10px;
+	background: #fff;
+}
+
+/*----------footer-end--------------*/
+.footer-end p{
+	font-size: 13px;
+	color: #000;
+	text-align: center;
+	padding: 10px;
+	background-color: white;
+}
+
+.footer-10{
+	background: #F1F2F4;
+	overflow: hidden;
+}
+
+.footer-10 p{
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+	padding: 15px 0;
+}
